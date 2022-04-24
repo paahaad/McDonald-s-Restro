@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>McDonald’s Restro</title>
+</head>
+<body>
+    <center><h2>Welcome to McDonald’s</h2></center>
+    <div id="container">
+        <div id="input-area">
+            <!-- <input type="text" placeholder="Enter Your Order"> -->
+            <select name="" id="menuOption">
+                <option value="">Select Your Food</option>
+                <option value="pizza">Pizza <span>$20</span> </option>
+                <option value="Pasta">Pasta <span>$20</span> </option>
+                <option value="Burger">Burger <span>$20</span> </option>
+                <option value="Finger-Chips">Finger Chips <span>$20</span> </option>
+            </select>
+            <button  onclick="addTomenu()">Add to menu</button>
+        </div>
+        <div id="menu">
+            <ul type="circle" id="foodList">
+                
+            </ul>
+
+            <ul id="priceList">
+
+            </ul>
+        </div>
+
+        <div id="total">
+            <span id="totalH4"></span>
+            <button onclick="placeOrder()">Place Order</button>
+        </div>
+        <div id="status"></div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>

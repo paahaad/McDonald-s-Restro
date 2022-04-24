@@ -1,0 +1,58 @@
+*{
+    width: 80%;
+    margin: auto;
+    
+}
+#container{
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+#input-area{
+    display: flex;
+    gap: 20px;
+}
+#input-area button{
+    width: 150px;
+    box-shadow: 0 1px #999;
+}
+#input-area button:hover{
+    cursor: pointer;
+}
+#input-area button:active {
+    /* background-color: #3e8e41; */
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+#menuOption span{
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+#menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu ul{
+    width: 200px;
+}
+#priceList{
+    list-style-type: none;
+}
+#total{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#total button{
+    width: 150px;
+}
+#totalH4{
+    font-weight: bold;
+    font-style: italic;
+}
+#status{
+    font-style: italic;
+    font-weight: bolder;
+}
